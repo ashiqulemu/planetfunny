@@ -1,7 +1,29 @@
+
+@font-face {
+    font-family: Subway-Black ;
+    src: url('../fonts/Subway-Black.ttf');
+}
+
+
 body{
     background: #f1f1f1;
+    font-family: Subway-Black ;
 }
 
 .text-justify{
     text-align: justify;
 }
+
+
+.reverse{
+    @media(max-width:768px){
+        flex-direction: column-reverse;
+    }
+}
+.linkbtn{
+        background: radial-gradient(#ea1d24, #ba2026);
+        &:hover{
+                background: radial-gradient( #ba2026, #ea1d24);
+        }
+}
+ 
