@@ -1,10 +1,18 @@
 @font-face {
-  font-family: Subway-Black;
-  src: url("../fonts/Subway-Black.ttf");
+  font-family: Heavitas;
+  src: url("../fonts/Heavitas.ttf");
 }
+@font-face {
+  font-family: Garet-Heavy;
+  src: url("../fonts/Garet-Heavy.ttf");
+}
+.garet-Heavy {
+  font-family: Garet-Heavy;
+}
+
 body {
   background: #f1f1f1;
-  font-family: Subway-Black;
+  font-family: Heavitas;
 }
 
 .text-justify {
@@ -22,4 +30,12 @@ body {
 }
 .linkbtn:hover {
   background: radial-gradient(#ba2026, #ea1d24);
+}
+
+@media (max-width: 768px) {
+  iframe {
+    min-height: 360px;
+    height: unset;
+    margin-top: 16px;
+  }
 }/*# sourceMappingURL=app.css.map */
